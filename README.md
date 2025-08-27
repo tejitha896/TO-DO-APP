@@ -1,70 +1,84 @@
-📌 FlowTask - Priority ToDo App
+FlowTask – Priority ToDo App
 
-FlowTask is a simple task management web app with login, signup, and task priority features. It allows users to add tasks with deadlines, assign priority (High / Medium / Low), and track them efficiently.
+FlowTask is a web-based ToDo application that helps users manage their daily tasks with priority levels and deadlines. It includes a login & signup system and a simple, user-friendly interface.
 
-🚀 Features
+🔑 Key Features
 
-🔑 Login & Signup system (basic authentication on frontend)
+User Authentication
 
-📝 Add tasks with:
+Sign up with username & password
 
-Task name
+Sign in to access your tasks
 
-Deadline (date & time)
+Task Management
 
-Priority (High ⚠️, Medium ⚡️, Low ✅) via buttons
+Add new tasks with description
 
-📋 Task list display with priorities highlighted
+Set a deadline (date & time)
 
-🎨 Clean and simple UI with responsive design
+Assign priority using buttons:
+
+🔴 High Priority ⚠️
+
+🟡 Medium Priority ⚡️
+
+🟢 Low Priority ✅
+
+Task Display
+
+Tasks appear in a list with their deadline & priority label
+
+Tasks are stored locally (no backend server needed)
+
+Responsive Design
+
+Works on desktop, tablet, and mobile
 
 📂 Project Structure
 FlowTask/
-│── index.html       # Main HTML structure  
-│── style.css        # App styling  
-│── script.js        # App logic  
-│── README.md        # Project documentation  
+│── index.html       # Main HTML page (UI structure)
+│── style.css        # Styling for app (colors, layout, responsive design)
+│── script.js        # JavaScript logic (login, signup, tasks, priorities)
+│── README.md        # Documentation (this file)
 
-🛠️ Setup & Usage
+⚙️ How to Run the Project
 
-Download / Clone this repository.
+Download the project folder or clone it from GitHub:
 
-git clone https://github.com/yourusername/flowtask-todo.git
+git clone https://github.com/your-username/flowtask-todo.git
 cd flowtask-todo
 
 
-Open index.html in your browser.
+Open the file index.html in any modern browser (Chrome, Edge, Firefox).
 
-No server setup required (pure HTML, CSS, JS project).
+No installation or server required.
 
-🎯 How to Use
+Everything runs locally in your browser.
 
-Register with a username and password (only stored in localStorage).
+🎯 How to Use the App
 
-Login with your account.
+Login / Signup
 
-Add a new task:
+First-time users: click Register to create an account
 
-Enter task description
+Already registered: use Sign In
+
+Add a Task
+
+Enter task description in the text box
 
 Select deadline (optional)
 
-Choose priority by clicking High / Medium / Low button
+Choose priority by clicking one of the buttons (High / Medium / Low)
 
 Click Add Task
 
-Tasks will appear in the list with priority labels.
+View Tasks
 
-🖼️ Screenshot (Example)
+Tasks will appear in a list with their description, deadline, and priority icon.
 
-(You can add your app screenshot here)
+🖼️ Example Screenshot
 
-📌 Future Enhancements
+(Add your own screenshot here later, e.g., assets/screenshot.png)
 
-Task editing and deletion
-
-Dark / Light mode
-
-Cloud storage or database support
-
-Notifications for deadlines
+![FlowTask Screenshot](assets/screenshot.png)
